@@ -1,0 +1,27 @@
+---
+title: "Detecting Hate Speech In Multimodal Memes Using Vision-Language Models"
+collection: publications
+permalink: /publication/2021-04-msc-thesis
+excerpt: 'multimodal learning, vision-and-language, meme classification, master thesis'
+date: 2021-04-21
+venue: 'rizavelioglu.github.io/publications/'
+paperurl:
+citation:
+---
+
+<b>Abstract---</b>
+Memes on the Internet are often harmless and sometimes amusing. The apparently innocent meme, though, becomes a multimodal form of hate speech when certain kinds of pictures, text, or variations of both are used – a *hateful meme*. The [Hateful Memes Challenge](https://hatefulmemeschallenge.com/) is a one-of-a-kind competition that focuses on detecting hate speech in multimodal memes and proposes a new data collection with 10,000+ new examples of multimodal content. We use VisualBERT, which is also known as "BERT for vision and language," and Ensemble Learning to boost the performance. In the Hateful Memes Challenge, our solution received an AUROC of 0.811 and an accuracy of 0.765 on the challenge test set, placing us **third out of 3,173 participants**. The code is available at https://github.com/rizavelioglu/hateful_memes-hate_detectron
+
+
+[Download the thesis here!](https://www.researchgate.net/publication/347880819_Detecting_Hate_Speech_in_Memes_Using_Multimodal_Deep_Learning_Approaches_Prize-winning_solution_to_Hateful_Memes_Challenge)
+
+
+<p>Cited as:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{velioglu2021detecting,
+  title   = "Detecting Hate Speech In Multimodal Memes Using Vision-Language Models",
+  author  = "Velioglu, Riza",
+  journal = "rizavelioglu.github.io/publications/",
+  year    = "2021",
+  url     = "http://rizavelioglu.github.io/files/RizaVelioglu-MScThesis.pdf"
+}
+</code></pre></div></div>
