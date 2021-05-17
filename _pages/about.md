@@ -20,5 +20,5 @@ At the same time, I am one of the co-founders of a startup company called [Recom
 
 I am currently working on Vision and Language Pre-training (Multi-Modal Learning).
 
-Check out my latest paper:
-  - [*Detecting Hate Speech in Memes Using Multimodal Deep Learning Approaches: Prize-winning solution to Hateful Memes Challenge*](https://rizavelioglu.github.io/publication/2020-12-hateful-memes)
+Check out my latest work (master thesis):
+  - [*Detecting Hate Speech In Multimodal Memes Using Vision-Language Models*](http://rizavelioglu.github.io/files/RizaVelioglu-MScThesis.pdf)
