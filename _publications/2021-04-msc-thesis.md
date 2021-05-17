@@ -10,8 +10,7 @@ citation:
 ---
 
 <b>Abstract---</b>
-Memes on the Internet are often harmless and sometimes amusing. The apparently innocent meme, though, becomes a multimodal form of hate speech when certain kinds of pictures, text, or variations of both are used – a *hateful meme*. The [Hateful Memes Challenge](https://hatefulmemeschallenge.com/) is a one-of-a-kind competition that focuses on detecting hate speech in multimodal memes and proposes a new data collection with 10,000+ new examples of multimodal content. We use VisualBERT, which is also known as "BERT for vision and language," and Ensemble Learning to boost the performance. In the Hateful Memes Challenge, our solution received an AUROC of 0.811 and an accuracy of 0.765 on the challenge test set, placing us **third out of 3,173 participants**. The code is available at https://github.com/rizavelioglu/hateful_memes-hate_detectron
-
+Memes on the Internet are often harmless and sometimes amusing. The apparently innocent meme, though, becomes a multimodal form of hate speech when certain kinds of pictures, text, or variations of both are used – a *hateful meme*. The [Hateful Memes Challenge](https://hatefulmemeschallenge.com/) is a one-of-a-kind competition that focuses on detecting hate speech in multimodal memes and proposes a new data collection with 10,000+ new examples of multimodal content. We use VisualBERT, which is also known as "BERT for vision and language," and Ensemble Learning to boost the performance. In the Hateful Memes Challenge, our solution received an AUROC of 0.811 and an accuracy of 0.765 on the challenge test set, placing us **third out of 3,173 participants**. The code is available on [GitHub](https://github.com/rizavelioglu/hateful_memes-hate_detectron).
 
 [Download the thesis here!](http://rizavelioglu.github.io/files/RizaVelioglu-MScThesis.pdf)
 
