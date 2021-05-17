@@ -16,12 +16,14 @@ Memes on the Internet are often harmless and sometimes amusing. The apparently i
 [Download the thesis here!](http://rizavelioglu.github.io/files/RizaVelioglu-MScThesis.pdf)
 
 
-<p>Cited as:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{velioglu2021detecting,
+Cited as:
+
+```
+@misc{velioglu2021detecting,
   title   = "Detecting Hate Speech In Multimodal Memes Using Vision-Language Models",
   author  = "Velioglu, Riza",
   journal = "rizavelioglu.github.io/publications/",
   year    = "2021",
   url     = "http://rizavelioglu.github.io/files/RizaVelioglu-MScThesis.pdf"
 }
-</code></pre></div></div>
+```
