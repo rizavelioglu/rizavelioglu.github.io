@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. researcher in the [Machine Learning Group] at [Bielefeld University].
+I am a Ph.D. researcher in the [Machine Learning Group] at [Bielefeld University], specializing in computer vision 
+and generative models. My research focuses on object detection, segmentation, and diffusion models, with an emphasis 
+on their application in challenging real-world scenarios. I am passionate about pushing the boundaries of AI to create 
+innovative solutions in vision and beyond.
 
-
-My research interests are computer vision(2D), object detection and segmentation, and 
-generative models especially diffusion models.
 
 ### Recent works:
 <ul>
