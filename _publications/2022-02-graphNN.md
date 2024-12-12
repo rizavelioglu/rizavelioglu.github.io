@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-02-graphNN
 excerpt: 'traffic prediction, U-net, GNN'
 date: 2022-02-11
-venue: 'IJCNN Proceedings'
+venue: 'International Joint Conference on Neural Networks (IJCNN)'
 paperurl:
 citation:
 ---
