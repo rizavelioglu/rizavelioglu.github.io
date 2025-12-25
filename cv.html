@@ -1,0 +1,311 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - {{ site.name }}</title>
+  <meta name="description" content="Curriculum Vitae of {{ site.name }} - {{ site.position }}">
+  <meta name="robots" content="index, follow">
+
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/cv.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/logo-dark.png">
+  <link rel="canonical" href="{{ site.url }}/cv.html">
+</head>
+
+<body>
+  <section>
+    <div class="container is-max-desktop">
+
+      <!-- Personal Details -->
+      <div class="columns is-vcentered" style="margin-left: 0.1rem;">
+        <div class="column is-narrow portrait-column">
+          <img class="portrait-image" src="./images/portrait.png" alt="Portrait of {{ site.name }}" />
+        </div>
+        <div class="column is-7" style="margin-left: 4rem;">
+          <h1 class="title is-2">{{ site.name }}</h1>
+<!--          <h1 class="subtitle is-5">{{ site.position }}</h1>-->
+          <p class="subtitle" style="font-size: 0.75rem; hyphens: auto; max-width: 500ch;">{{ site.description }}</p>
+        </div>
+        <div class="column has-text-right">
+          <p>
+            <a href="mailto:{{ site.email }}">
+              <i class="fa-solid fa-envelope"></i>
+              {{ site.email }}
+            </a>
+          </p>
+          <p>
+<!--            <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer">-->
+            <a href="https://rizavelioglu.github.io/" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-home"></i>
+              rizavelioglu.github.io
+<!--              {% assign url_parts = site.url | split: "//" %}-->
+<!--              {{ url_parts[1] }}-->
+            </a>
+          </p>
+          <p>
+            <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
+              <i class="ai ai-google-scholar-square"></i> Google Scholar
+            </a>
+          </p>
+          <p>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+              {{ site.github_username }}
+            </a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin"></i>
+              {{ site.linkedin }}
+            </a>
+          </p>
+          <p>
+            <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-x-twitter"></i>
+              {{ site.twitter_username }}
+            </a>
+          </p>
+          <p>
+            <a href="https://huggingface.co/{{ site.huggingface_username }}" target="_blank" rel="noopener noreferrer">
+              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="15">
+              {{ site.huggingface_username }}
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Content Section -->
+      <div class="content">
+      <br>
+<!--    Education -->
+<!--        <h2>Education</h2>-->
+<!--        {% for school in site.data.education %}-->
+<!--        <div class="columns">-->
+<!--          <div class="column is-four-fifths">-->
+<!--            <b>{{ school.name }}</b> <small><small class="has-text-grey"> {{ school.grade }} </small></small> <br />-->
+<!--            <small>{{ school.description }}</small>-->
+<!--          </div>-->
+<!--          <div class="column is-one-fifths has-text-right">-->
+<!--            {{ school.dates }}-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--    Education -->
+
+<!--    Education -- Left-aligned -->
+        <div class="columns">
+          <div class="column is-2">
+            <h3>Education</h3>
+          </div>
+          <div class="column is-10">
+            {% for school in site.data.education %}
+            <div class="columns">
+              <div class="column is-9">
+                <b>{{ school.name }}</b> <small><small class="has-text-grey"> {{ school.grade }} </small></small> <br />
+                <small>{{ school.description }}</small>
+              </div>
+              <div class="column is-3 has-text-right">
+                {{ school.dates }}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+<!--    Education -- Left-aligned -->
+
+<!--        Employment -->
+<!--        <h2>Employment</h2>-->
+<!--        {% for job in site.data.employment %}-->
+<!--        <div class="columns">-->
+<!--          <div class="column is-four-fifths">-->
+<!--              <strong>{{ job.company }}</strong> <small class="has-text-grey">({{ job.role }})</small><br>-->
+<!--              <small> {{ job.description }} </small>-->
+<!--          </div>-->
+<!--          <div class="column is-one-fifths has-text-right">-->
+<!--            {{ job.dates }}-->
+<!--            <br />-->
+<!--            {{ job.location }}-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--        Employment -->
+
+<!--    Employment -- Left-aligned -->
+        <div class="columns">
+          <div class="column is-2">
+            <h3>Employment</h3>
+          </div>
+          <div class="column is-10">
+            {% for job in site.data.employment %}
+            <div class="columns">
+              <div class="column is-9">
+                <strong>{{ job.company }}</strong> <small class="has-text-grey">({{ job.role }})</small><br>
+                <small> {{ job.description }} </small>
+              </div>
+              <div class="column is-3 has-text-right">
+                {{ job.dates }}
+                <br />
+                {{ job.location }}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+<!--    Employment -- Left-aligned -->
+
+
+<!--    Selected Publications -->
+<!--        <h2>Selected Publications</h2>-->
+<!--        {% for publication in site.data.publications %}-->
+<!--        {% if publication.show_in_cv %}-->
+<!--        <div class="columns">-->
+<!--          <div class="column is-four-fifths">-->
+<!--            <a href="{{ publication.project_page }}"><b>{{ publication.title }}</b></a>-->
+<!--            <div class="publication-authors">-->
+<!--              {% for author_id in publication.authors %}-->
+<!--              {% assign author = site.data.authors[author_id] %}-->
+<!--              <span class="author-block {% if author.is_me %}author-me{% endif %}">-->
+<!--                {% if author.is_me %}-->
+<!--                {{ author.first_name | slice: 0 }}. {{ author.last_name }}{% if forloop.last == false %}, {% endif %}-->
+<!--                {% else %}-->
+<!--                <small><a href="{{ author.website }}">{{ author.first_name | slice: 0 }}. {{ author.last_name }}</a></small>{% if forloop.last == false %}, {% endif %}-->
+<!--                {% endif %}-->
+<!--              </span>-->
+<!--              {% endfor %}-->
+<!--            </div>-->
+<!--            <small>{{ publication.description }}</small>-->
+<!--          </div>-->
+<!--          <div class="column is-one-fifths has-text-right">-->
+<!--            {{ publication.venue }}-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        {% endif %}-->
+<!--        {% endfor %}-->
+<!--    Selected Publications -->
+
+<!--    Selected Publications -- Left-aligned -->
+        <div class="columns">
+          <div class="column is-2">
+            <h3>Selected Publications</h3>
+          </div>
+          <div class="column is-10">
+            {% for publication in site.data.publications %}
+            {% if publication.show_in_cv %}
+            <div class="columns">
+              <div class="column is-four-fifths">
+                <a href="{{ publication.project_page }}" target="_blank" rel="noopener noreferrer"><b>{{ publication.title }}</b></a>
+                <div class="publication-authors">
+                  {% for author_id in publication.authors %}
+                  {% assign author = site.data.authors[author_id] %}
+                  <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                    {% if author.is_me %}
+                    {{ author.first_name | slice: 0 }}. {{ author.last_name }}{% if forloop.last == false %}, {% endif %}
+                    {% else %}
+                    <small><a href="{{ author.website }}" target="_blank" rel="noopener noreferrer">{{ author.first_name | slice: 0 }}. {{ author.last_name }}</a></small>{% if forloop.last == false %}, {% endif %}
+                    {% endif %}
+                  </span>
+                  {% endfor %}
+                </div>
+                <small>{{ publication.description }}</small>
+              </div>
+              <div class="column is-one-fifths has-text-right">
+                {{ publication.venue }}
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+<!--    Selected Publications -- Left-aligned -->
+
+
+<!--        Honors & Awards -->
+<!--        <h2>Honors & Awards</h2>-->
+<!--        {% for entry in site.data.honors_awards %}-->
+<!--        <div class="columns">-->
+<!--          <div class="column is-four-fifths">-->
+<!--              <small> <a href="{{ entry.link }}"> {{ entry.name }} </a></small>-->
+<!--          </div>-->
+<!--          <div class="column is-one-fifths has-text-right">-->
+<!--            {{ entry.year }}-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--        Honors & Awards -->
+
+<!--    Honors & Awards -- Left-aligned -->
+        <div class="columns">
+          <div class="column is-2">
+            <h3>Honors & Awards</h3>
+          </div>
+          <div class="column is-10">
+            {% for entry in site.data.honors_awards %}
+              <div class="columns">
+                <div class="column is-three-quarters">
+                  <a href="{{ entry.link }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>
+                </div>
+                <div class="column has-text-right">
+                  {{ entry.year }}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+<!--    Honors & Awards -- Left-aligned -->
+
+<!--    Challenges -- Left-aligned -->
+        <div class="columns">
+          <div class="column is-2">
+            <h3>Challenges</h3>
+          </div>
+          <div class="column is-10">
+            {% for entry in site.data.challenges %}
+              <div class="columns">
+                <div class="column is-three-quarters">
+                  <a href="{{ entry.link1 }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>
+                  {% if entry.link2 %}
+                  <a href="{{ entry.link2 }}" target="_blank" rel="noopener noreferrer">(leaderboard)</a>
+                  {% endif %}
+                </div>
+                <div class="column has-text-right">
+                  {{ entry.year }}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+<!--    Challenges -- Left-aligned -->
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

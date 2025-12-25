@@ -1,0 +1,17 @@
+- name: Bielefeld University
+  description: PhD in Machine Learning, advised by <a href="https://hammer-lab.techfak.uni-bielefeld.de/people/18302458/" target="_blank" rel="noopener noreferrer">Barbara Hammer</a>.
+  dates: May'21 - Present
+
+- name: Bielefeld University
+  description: MSc in Intelligent Systems, advised by <a href="https://hammer-lab.techfak.uni-bielefeld.de/people/18302458/" target="_blank" rel="noopener noreferrer">Barbara Hammer</a>.
+  dates: Oct'18 - Apr'21
+  grade: (4.00/4.00 GPA)
+
+- name: Frankfurt University of Applied Sciences
+  description: (Erasmus) BSc in Electrical Engineering and Communications Technology
+  dates: Sep'16 - Aug'17
+
+- name: Istanbul Bilgi University
+  description: BSc in Electrical & Electronics Engineering, advised by <a href="https://www.bilgi.edu.tr/en/academic/staff/alpaslan-parlakci/" target="_blank" rel="noopener noreferrer">M. N. Alpaslan Parlakçı</a>.
+  dates: Sep'13 - Jun'18
+  grade: (3.59/4.00 GPA)

@@ -1,0 +1,23 @@
+- name: "Traffic4cast @NeurIPS'21"
+  link1: "https://github.com/iarai/NeurIPS2021-traffic4cast"
+  link2: "https://github.com/iarai/NeurIPS2021-traffic4cast?tab=readme-ov-file#leaderboard"
+  year: 2021
+
+- name: "Hateful Memes by Facebook AI @NeurIPS'20 [3 / 3,165]"
+  link1: "https://www.drivendata.org/competitions/group/hateful-memes/"
+  link2: "https://ai.meta.com/blog/hateful-memes-challenge-winners/"
+  year: 2020
+
+- name: "AI Driving Olympics by MIT @ICRA'19 [12 / 33]"
+  link1: "https://duckietown.com/research/ai-driving-olympics/"
+  link2: "https://challenges.duckietown.org/v4/humans/challenges/aido3-LF-sim-validation/leaderboard"
+  year: 2019
+
+- name: "Udacity & Facebook PyTorch Scholarship Challenge"
+  link1: "https://www.udacity.com/blog/2018/10/introducing-the-pytorch-scholarship-challenge-from-facebook.html"
+  year: 2018
+
+- name: "New York City Taxi Fare Prediction by Google Cloud [102 / 1,484]"
+  link1: "https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/"
+  link2: "https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/leaderboard?search=riza"
+  year: 2018

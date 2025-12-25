@@ -1,0 +1,35 @@
+- company: '<a href="https://www.fal.ai/" target="_blank" rel="noopener noreferrer" class="employment-link">fal.ai</a>'
+  role: "Machine Learning Engineer"
+  description: "Lightning-fast inference and post-training of generative media models."
+  dates: "Oct'25 - Present"
+  location: San Francisco, CA, USA
+
+- company: '<a href="https://www.visionai.co/" target="_blank" rel="noopener noreferrer" class="employment-link">VisionAI GmbH</a>'
+  role: "Co-Founder & Chief Research Officer"
+  description: "Co-developed a product portfolio adopted by 50+ customers in a year. Secured €3M+ funding and left before VC to focus on Ph.D."
+  dates: "Jan'20 - Aug'23"
+  location: Bielefeld, Germany
+
+- company: '<a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener noreferrer" class="employment-link">Bielefeld University</a>'
+  role: "Teaching Assistant & Research Assistant"
+  description: "TA for 'Introduction to': (1) Machine Learning, (2) Neural Networks, and (3) Algorithms of Computer Science."
+  dates: "Feb'19 - Mar'21"
+  location: Bielefeld, Germany
+
+- company: '<a href="https://www.migroskurumsal.com/en" target="_blank" rel="noopener noreferrer" class="employment-link">Migros Ticaret A.Ş.</a>'
+  role: "Engineering Internship"
+  description: "Developed a predictive analytics tool to forecast daily sales for Migros stores using classic ML methods."
+  dates: "Jun'18 - Jul'18"
+  location: Istanbul, Turkey
+
+- company: '<a href="https://www.bilgi.edu.tr/en/" target="_blank" rel="noopener noreferrer" class="employment-link">Istanbul Bilgi University</a>'
+  role: "Student Assistant"
+  description: "Assisted in the preparation of comprehensive lecture materials."
+  dates: "Sep'15 - Jun'18"
+  location: Istanbul, Turkey
+
+- company: '<a href="https://www.sunny.com.tr/en/" target="_blank" rel="noopener noreferrer" class="employment-link">Sunny Electronics</a>'
+  role: "Engineering Internship"
+  description: "The products produced by R&D have been tested in accordance with the relevant standards."
+  dates: "Jun'15 - Jul'15"
+  location: Istanbul, Turkey

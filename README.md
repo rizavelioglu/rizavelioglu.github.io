@@ -1,5 +1,7 @@
-### About
-This is my GitHub-Pages website repository where one can find all the files, code, etc. used in the webpage.
+# rizavelioglu.github.io
 
-#### More about the repository
-This repository is forked from [AcademicPages (Github Pages template for academic websites)](https://github.com/academicpages/academicpages.github.io) which was originally forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+- Feel free to borrow this template.
+- Make sure to update all relevant fields in `_config.yml` and `_data`.
+
+# License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

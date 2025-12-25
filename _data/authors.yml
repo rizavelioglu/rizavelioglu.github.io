@@ -1,18 +1,301 @@
-# Authors
+define:
+  traffic4castPaper: &traffic4castPaper "https://arxiv.org/abs/2203.17070"
+  hatefulmemesPaper: &hatefulmemesPaper "https://proceedings.mlr.press/v133/kiela21a.html"
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+rvelioglu:
+  first_name: Riza
+  last_name: Velioglu
+  website: 'https://rizavelioglu.github.io/'
+  is_me: true
+bhammer:
+  first_name: Barbara
+  last_name: Hammer
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/18302458/'
+rchan:
+  first_name: Robin
+  last_name: Chan
+  website: 'https://robinchan.de/'
+pbevandic:
+  first_name: Petra
+  last_name: Bevandic
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/460726592/'
+aartelt:
+  first_name: André
+  last_name: Artelt
+  website: 'https://andreartelt.github.io/'
+jpgopfert:
+  first_name: Jan
+  middle_name: Philip
+  last_name: Göpfert
+  website: 'https://janphilip.gopfert.eu/'
+amelnik:
+  first_name: Andrew
+  last_name: Melnik
+  website: 'https://www.linkedin.com/in/andrewmelnik'
+mvieth:
+  first_name: Markus
+  last_name: Vieth
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/270248526/'
+mschilling:
+  first_name: Malte
+  last_name: Schilling
+  website: 'https://www.uni-muenster.de/AISystems/team/schilling/index.shtml'
+oozdemir:
+  first_name: Özgür
+  last_name: Özdemir
+  website: 'https://scholar.google.com/citations?user=zdSo67sAAAAJ'
+esakin:
+  first_name: Emre
+  middle_name: Salih
+  last_name: Akın
+tdalyan:
+  first_name: Tuğba
+  last_name: Dalyan
+  website: 'https://www.bilgi.edu.tr/en/academic/staff/tugba-yildiz/'
+syildirim:
+  first_name: Savaş
+  last_name: Yıldırım
+  website: 'https://www.bilgi.edu.tr/en/academic/staff/savas-yildirim/'
+jrose:
+  first_name: Jewgeni
+  last_name: Rose
+  website: 'https://www.linkedin.com/in/jewgeni-rose-5480a7104/'
+jbrinkrolf:
+  first_name: Johannes
+  last_name: Brinkrolf
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/40028560/'
+fhinder:
+  first_name: Fabian
+  last_name: Hinder
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/161985998/'
+vvaquet:
+  first_name: Valerie
+  last_name: Vaquet
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/222892347/'
+lhermes:
+  first_name: Luca
+  last_name: Hermes
+  website: 'https://hammer-lab.techfak.uni-bielefeld.de/people/250213773/'
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+
+ceichenberger:
+  first_name: Christian
+  last_name: Eichenberger
+  website: *traffic4castPaper
+mneun:
+  first_name: Moritz
+  last_name: Neun
+  website: *traffic4castPaper
+hmartin:
+  first_name: Henry
+  last_name: Martin
+  website: *traffic4castPaper
+pherruzo:
+  first_name: Pedro
+  last_name: Herruzo
+  website: *traffic4castPaper
+mspanring:
+  first_name: Markus
+  last_name: Spanring
+  website: *traffic4castPaper
+ylu:
+  first_name: Yichao
+  last_name: Lu
+  website: *traffic4castPaper
+schoi:
+  first_name: Sungbin
+  last_name: Choi
+  website: *traffic4castPaper
+vkonyakhin:
+  first_name: Vsevolod
+  last_name: Konyakhin
+  website: *traffic4castPaper
+nlukashina:
+  first_name: Nina
+  last_name: Lukashina
+  website: *traffic4castPaper
+ashpilman:
+  first_name: Aleksei
+  last_name: Shpilman
+  website: *traffic4castPaper
+nwiedemann:
+  first_name: Nina
+  last_name: Wiedemann
+  website: *traffic4castPaper
+mraubal:
+  first_name: Martin
+  last_name: Raubal
+  website: *traffic4castPaper
+bwang:
+  first_name: Bo
+  last_name: Wang
+  website: *traffic4castPaper
+hlvu:
+  first_name: Hai L.
+  last_name: Vu
+  website: *traffic4castPaper
+rmohajerpoor:
+  first_name: Reza
+  last_name: Mohajerpoor
+  website: *traffic4castPaper
+ccai:
+  first_name: Chen
+  last_name: Cai
+  website: *traffic4castPaper
+ikim:
+  first_name: Inhi
+  last_name: Kim
+  website: *traffic4castPaper
+abojesomo:
+  first_name: Alabi
+  last_name: Bojesomo
+  website: *traffic4castPaper
+halmarzouqi:
+  first_name: Hasan
+  last_name: Al Marzouqi
+  website: *traffic4castPaper
+pliatsis:
+  first_name: Panos
+  last_name: Liatsis
+  website: *traffic4castPaper
+jsantokhi:
+  first_name: Jay
+  last_name: Santokhi
+  website: *traffic4castPaper
+dhillier:
+  first_name: Dylan
+  last_name: Hillier
+  website: *traffic4castPaper
+yyang:
+  first_name: Yiming
+  last_name: Yang
+  website: *traffic4castPaper
+jsarwar:
+  first_name: Joned
+  last_name: Sarwar
+  website: *traffic4castPaper
+ajordan:
+  first_name: Anna
+  last_name: Jordan
+  website: *traffic4castPaper
+ehewage:
+  first_name: Emil
+  last_name: Hewage
+  website: *traffic4castPaper
+djonietz:
+  first_name: David
+  last_name: Jonietz
+  website: *traffic4castPaper
+ftang:
+  first_name: Fei
+  last_name: Tang
+  website: *traffic4castPaper
+agruca:
+  first_name: Aleksandra
+  last_name: Gruca
+  website: *traffic4castPaper
+mkopp:
+  first_name: Michael
+  last_name: Kopp
+  website: *traffic4castPaper
+dkreil:
+  first_name: David
+  last_name: Kreil
+  website: *traffic4castPaper
+shochreiter:
+  first_name: Sepp
+  last_name: Hochreiter
+  website: *traffic4castPaper
+
+dkiela:
+  first_name: Douwe
+  last_name: Kiela
+  website: *hatefulmemesPaper
+hfirooz:
+  first_name: Hamed
+  last_name: Firooz
+  website: *hatefulmemesPaper
+amohan:
+  first_name: Aravind
+  last_name: Mohan
+  website: *hatefulmemesPaper
+vgoswami:
+  first_name: Vedanuj
+  last_name: Goswami
+  website: *hatefulmemesPaper
+asingh:
+  first_name: Amanpreet
+  last_name: Singh
+  website: *hatefulmemesPaper
+cafitzpatrick:
+  first_name: Casey A.
+  last_name: Fitzpatrick
+  website: *hatefulmemesPaper
+pbull:
+  first_name: Peter
+  last_name: Bull
+  website: *hatefulmemesPaper
+glipstein:
+  first_name: Greg
+  last_name: Lipstein
+  website: *hatefulmemesPaper
+tnelli:
+  first_name: Tony
+  last_name: Nelli
+  website: *hatefulmemesPaper
+rzhu:
+  first_name: Ron
+  last_name: Zhu
+  website: *hatefulmemesPaper
+nmuennighoff:
+  first_name: Niklas
+  last_name: Muennighoff
+  website: *hatefulmemesPaper
+plippe:
+  first_name: Phillip
+  last_name: Lippe
+  website: *hatefulmemesPaper
+nholla:
+  first_name: Nithin
+  last_name: Holla
+  website: *hatefulmemesPaper
+schandra:
+  first_name: Shantanu
+  last_name: Chandra
+  website: *hatefulmemesPaper
+srajamanickam:
+  first_name: Santhosh
+  last_name: Rajamanickam
+  website: *hatefulmemesPaper
+gantoniou:
+  first_name: Georgios
+  last_name: Antoniou
+  website: *hatefulmemesPaper
+eshutova:
+  first_name: Ekaterina
+  last_name: Shutova
+  website: *hatefulmemesPaper
+hyannakoudakis:
+  first_name: Helen
+  last_name: Yannakoudakis
+  website: *hatefulmemesPaper
+vsandulescu:
+  first_name: Vlad
+  last_name: Sandulescu
+  website: *hatefulmemesPaper
+uozertem:
+  first_name: Umut
+  last_name: Ozertem
+  website: *hatefulmemesPaper
+ppantel:
+  first_name: Patrick
+  last_name: Pantel
+  website: *hatefulmemesPaper
+lspecia:
+  first_name: Lucia
+  last_name: Specia
+  website: *hatefulmemesPaper
+dparikh:
+  first_name: Devi
+  last_name: Parikh
+  website: *hatefulmemesPaper

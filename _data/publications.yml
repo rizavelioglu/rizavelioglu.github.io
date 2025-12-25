@@ -1,0 +1,256 @@
+- id: mgt
+  show_in_cv: true
+  title: 'MGT: Extending Virtual Try-Off to Multi-Garment Scenarios'
+  venue: ICCVW'25
+  description: >-
+    With a simple yet effective extension to TryOffDiff, we present Multi-Garment TryOffDiff (MGT), a diffusion-based 
+    VTOFF model that supports upper-body, lower-body, and dress garments.
+  project_page: 'https://rizavelioglu.github.io/tryoffdiff'
+  github: rizavelioglu/tryoffdiff/
+  arxiv: '2504.13078'
+  demo: 'https://huggingface.co/spaces/rizavelioglu/tryoffdiff'
+  image: logo-dark.png
+  image_mouseover: null
+  authors:
+    - rvelioglu
+    - pbevandic
+    - rchan
+    - bhammer
+- id: tryoffdiff
+  show_in_cv: true
+  title: 'TryOffDiff: Virtual-Try-Off via High-Fidelity Garment Reconstruction using Diffusion Models'
+  venue: BMVC'25 & CVPR'25-Demo
+  description: >-
+    Introducing Virtual Try-Off (VTOFF), a task for generating standardized
+    garment images, and TryOffDiff,  a model that adapts Stable Diffusion with
+    SigLIP-based conditioning for high fidelity and detail retention.
+  project_page: 'https://rizavelioglu.github.io/tryoffdiff'
+  github: rizavelioglu/tryoffdiff/
+  arxiv: '2411.18350'
+  demo: 'https://huggingface.co/spaces/rizavelioglu/tryoffdiff'
+  image: paper-tryoffdiff-teaser.png
+  image_mouseover: paper-tryoffdiff-teaser.mp4
+  authors:
+    - rvelioglu
+    - pbevandic
+    - rchan
+    - bhammer
+- id: fashionfail
+  show_in_cv: true
+  title: >-
+    FashionFail: Addressing Failure Cases in Fashion Object Detection and
+    Segmentation
+  venue: IJCNN'24
+  description: >-
+    We present a novel e-commerce fashion dataset to enhance object detection
+    and segmentation models,  introducing a basic data augmentation approach to
+    increase model robustness for industrial use.
+  project_page: 'https://rizavelioglu.github.io/fashionfail'
+  github: rizavelioglu/fashionfail/
+  arxiv: '2404.08582'
+  demo: 'https://huggingface.co/spaces/rizavelioglu/fashionfail'
+  image: paper-fashionfail.jpg
+  image_mouseover: null
+  authors:
+    - rvelioglu
+    - rchan
+    - bhammer
+- id: xai4mlprom
+  show_in_cv: false
+  title: Explainable artificial intelligence for improved modeling of processes
+  venue: IDEAL'22
+  description: >-
+    Evaluating Transformer architectures and classical ML models for process
+    modeling, demonstrating their  predictive capabilities and the insights
+    provided by attention mechanisms and XAI techniques.
+  github: rizavelioglu/ml4prom
+  arxiv: '2212.00695'
+  image: logo-dark.png
+  authors:
+    - rvelioglu
+    - jpgopfert
+    - aartelt
+    - bhammer
+- id: traffic4cast
+  show_in_cv: true
+  title: >-
+    Traffic4cast at neurips 2021-temporal and spatial few-shot transfer learning
+    in gridded geo-spatial processes
+  venue: NeurIPS'21
+  project_page: 'https://proceedings.mlr.press/v176/eichenberger22a.html'
+  github: iarai/NeurIPS2021-traffic4cast
+  arxiv: '2203.17070'
+  image: logo-dark.png
+  image_mouseover: null
+  authors:
+    - ceichenberger
+    - mneun
+    - hmartin
+    - pherruzo
+    - mspanring
+    - ylu
+    - schoi
+    - vkonyakhin
+    - nlukashina
+    - ashpilman
+    - nwiedemann
+    - mraubal
+    - bwang
+    - hlvu
+    - rmohajerpoor
+    - ccai
+    - ikim
+    - lhermes
+    - amelnik
+    - rvelioglu
+    - mvieth
+    - mschilling
+    - abojesomo
+    - halmarzouqi
+    - pliatsis
+    - jsantokhi
+    - dhillier
+    - yyang
+    - jsarwar
+    - ajordan
+    - ehewage
+    - djonietz
+    - ftang
+    - agruca
+    - mkopp
+    - dkreil
+    - shochreiter
+- id: graph_unet
+  show_in_cv: false
+  title: A graph-based U-net model for predicting traffic in unseen cities
+  venue: IJCNN'22
+  github: LucaHermes/graph-UNet-traffic-prediction
+  arxiv: '2202.06725'
+  image: logo-dark.png
+  authors:
+    - lhermes
+    - bhammer
+    - amelnik
+    - rvelioglu
+    - mvieth
+    - mschilling
+- id: nmt_tr
+  show_in_cv: false
+  title: >-
+    A comparative study of neural machine translation models for Turkish
+    language
+  venue: J.Intell.Fuzzy Syst.'22
+  paper: >-
+    https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs211453
+  github: ozgurozdemir/gumbel-training-for-nmt
+  image: logo-dark.png
+  awards:
+    - Journal Paper
+  authors:
+    - oozdemir
+    - esakin
+    - rvelioglu
+    - tdalyan
+- id: counterfactual
+  show_in_cv: false
+  title: Evaluating robustness of counterfactual explanations
+  venue: SSCI'21
+  github: andreArtelt/FairnessRobustnessContrastingExplanations
+  arxiv: '2103.02354'
+  image: logo-dark.png
+  authors:
+    - aartelt
+    - vvaquet
+    - rvelioglu
+    - fhinder
+    - jbrinkrolf
+    - mschilling
+    - bhammer
+- id: msc_thesis
+  show_in_cv: true
+  title: Detecting Hate Speech In Multimodal Memes Using Vision-Language Models
+  venue: MSc Thesis'21
+  project_page: 'https://pub.uni-bielefeld.de/record/2989295'
+  paper: 'https://pub.uni-bielefeld.de/record/2989295'
+  image: logo-dark.png
+  image_mouseover: null
+  authors:
+    - rvelioglu
+- id: hateful_memes_competition
+  show_in_cv: true
+  title: 'The hateful memes challenge: Competition report'
+  venue: NeurIPS'20
+  project_page: 'https://ai.meta.com/blog/hateful-memes-challenge-winners/'
+  paper: 'https://proceedings.mlr.press/v133/kiela21a.html'
+  image: logo-dark.png
+  image_mouseover: null
+  authors:
+    - dkiela
+    - hfirooz
+    - amohan
+    - vgoswami
+    - asingh
+    - cafitzpatrick
+    - pbull
+    - glipstein
+    - tnelli
+    - rzhu
+    - nmuennighoff
+    - rvelioglu
+    - jrose
+    - plippe
+    - nholla
+    - schandra
+    - srajamanickam
+    - gantoniou
+    - eshutova
+    - hyannakoudakis
+    - vsandulescu
+    - uozertem
+    - ppantel
+    - lspecia
+    - dparikh
+- id: hateful_memes
+  show_in_cv: true
+  title: >-
+    Detecting hate speech in memes using multimodal deep learning approaches:
+    Prize-winning solution to hateful memes challenge
+  venue: arXiv'20
+  description: >-
+    Won 3rd prize in the competition by finetunung VisualBERT and using ensemble
+    learning.
+  project_page: 'https://github.com/rizavelioglu/hateful_memes-hate_detectron'
+  github: rizavelioglu/hateful_memes-hate_detectron
+  arxiv: '2012.12975'
+  image: logo-dark.png
+  image_mouseover: null
+  authors:
+    - rvelioglu
+    - jrose
+- id: sentiment_analysis
+  show_in_cv: false
+  title: Sentiment analysis using learning approaches over emojis for Turkish tweets
+  venue: UBMK'18
+  paper: 'https://ieeexplore.ieee.org/document/8566260'
+  image: logo-dark.png
+  image_mouseover: null
+  authors:
+    - rvelioglu
+    - tdalyan
+    - syildirim
+
+
+            <div class="publication-authors">
+              {% for author_id in publication.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              <span class="{% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <small><a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
+                  }}</a></small>{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>

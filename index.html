@@ -1,0 +1,245 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page Title & SEO -->
+  <title>{{ site.name }} - {{ site.position }}</title>
+  <meta name="description" content="{{ site.description | strip_newlines | truncate: 160 }}">
+  <meta name="author" content="{{ site.name }}">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.name }} - {{ site.position }}">
+  <meta property="og:description" content="{{ site.description | strip_newlines | truncate: 160 }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:image" content="{{ site.url }}/images/portrait.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+
+  <!-- Preconnect to external domains for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- Google Analytics (async) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  <!-- Fonts (with display=swap for non-blocking) -->
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="{{ '/css/bulma.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/index.css' | relative_url }}">
+
+  <!-- Deferred JavaScript (no jQuery needed) -->
+  <script defer src="{{ '/js/index.js' | relative_url }}"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/logo-dark.png">
+  <link rel="canonical" href="{{ site.url }}">
+</head>
+
+<body>
+  <!-- Picture, title, description, and buttons. -->
+  <section class="hero">
+    <div class="container is-max-desktop" style="margin-top:2rem;">
+      <div class="columns is-vcentered">
+
+        <!-- Portrait Image -->
+        <div class="column is-3">
+          <figure class="portrait is-square">
+            <img src="/images/portrait.png" alt="Portrait of {{ site.name }}"/>
+          </figure>
+        </div>
+
+<!--         Introduction Text & Buttons-->
+        <div class="column">
+          <h1 class="title">
+            <strong>Hello, I'm {{ site.name }}</strong>
+          </h1>
+          <div class="content has-text-justified">
+            <p>
+              I am working as MLE at <a href="https://fal.ai">fal.ai</a> and a Ph.D. researcher in the <a href="https://hammer-lab.techfak.uni-bielefeld.de/">Machine Learning Group</a> 
+              at <a href="https://www.uni-bielefeld.de/">Bielefeld University</a>. 
+              My research focuses on vision-language models and diffusion models, with an emphasis on their application in real-world scenarios.
+            </p>
+
+          <div class="header-buttons" style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-top: 1rem;">
+            <a class="external-link" href="cv.html" title="View CV" style="position: relative;">
+              <i class="fas fa-file"></i>
+              <span style="position: absolute; font-size: 0.5em; color: #fff; bottom: 0.4em; left: 50%; transform: translateX(-50%);">
+              <strong>CV</strong>
+                </span>
+            </a>
+            <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+              <i class="ai ai-google-scholar-square"></i>
+            </a>
+            <a class="external-link" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+            <a class="external-link" href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="external-link" href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a class="external-link" href="https://huggingface.co/{{ site.huggingface_username }}" target="_blank" rel="noopener noreferrer" title="Hugging Face">
+              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="27" alt="Hugging Face">
+            </a>
+          </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--  add horizontal line-->
+  <hr>
+
+  <!-- Publications. -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Publications</h2>
+      {% for publication in site.data.publications %}
+      <div class="publication-block columns">
+        <div class="column is-2">
+          <div class="publication-image">
+            {% if publication.image_mouseover %}
+            <div class="publication-mousecell">
+              <img
+                src="./images/{{ publication.image }}"
+                alt="{{ publication.title }}"
+              />
+              <video autoplay loop muted playsinline>
+                <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
+              </video>
+            </div>
+            {% else %}
+            <img
+              src="./images/{{ publication.image }}"
+              alt="{{ publication.title }}"
+            />
+            {% endif %}
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              {% if publication.project_page %}
+              <a href="{{ publication.project_page }}">{{ publication.title }}</a>
+              {% else %}
+              {{ publication.title }}
+              {% endif %}
+            </h3>
+            <div class="publication-authors">
+              {% for author_id in publication.authors %}
+                {% assign author = site.data.authors[author_id] %}
+                {% if author.is_me %}
+                  <span class="author-me">
+                    {{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}{% unless forloop.last %},{% endunless %}
+                  </span>
+                {% else %}
+                  <small>
+                    <a href="{{ author.website }}">
+                      {{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}
+                    </a>
+                  </small>{% unless forloop.last %},{% endunless %}
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="publication-venue">
+              <span>{{ publication.venue }}</span>
+              {% for award in publication.awards %}
+                <span class="publication-venue-emph">{{ award }}</span>
+              {% endfor %}
+            </div>
+            <p class="publication-description">{{ publication.description }}</p>
+            <!-- Publication Links. -->
+            <div class="publication-links buttons field has-addons">
+              {% if publication.project_page %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
+              {% if publication.arxiv %}
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% endif %}
+              {% if publication.paper %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.paper }}">
+                <span class="icon"><i class="fa-solid fa-file"></i></span>
+                <span>Paper</span>
+              </a>
+              {% endif %}
+              {% if publication.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+              {% if publication.demo %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.demo }}">
+                <span class="icon"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"></span>
+                <span>Demo</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ Publication Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Footer. -->
+  <footer class="footer" style="padding: 0.2rem 0;">
+    <div class="container">
+      <div class="content footer-links has-text-centered" style="margin-bottom: 0.2rem;">
+        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+          <i class="ai ai-google-scholar-square"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a class="external-link" href="https://linkedin.com/in/{{ site.linkedin }}">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a class="external-link" href="https://x.com/{{ site.twitter_username }}">
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </a>
+        <span style="display: inline-block; width: 47px; height: 32px; overflow: hidden; vertical-align: middle; transform: scale(0.67); transform-origin: top left; margin-left: 4px;">
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=70&t=n&d=lJqQW7E9YnxI3vQlqhPoQEPknGfg5lUISj74_JJvTqA&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
+        </span>
+      </div>
+      <div class="content is-small has-text-centered">
+        <p>
+          Using <a href="https://github.com/keunhong/keunhong.github.io">Keunhong's template</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
