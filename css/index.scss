@@ -3,8 +3,43 @@
 
 @import "base";
 
+// Font fallback with size-adjust to minimize layout shift (CLS)
+@font-face {
+    font-family: 'Google Sans Fallback';
+    src: local('Arial');
+    font-weight: 700;
+    size-adjust: 100%;
+    ascent-override: 90%;
+    descent-override: 20%;
+    line-gap-override: 0%;
+}
+
+@font-face {
+    font-family: 'Noto Sans Fallback';
+    src: local('Arial'), local('Helvetica');
+    font-weight: 400 700;
+    size-adjust: 100%;
+    ascent-override: 95%;
+    descent-override: 25%;
+    line-gap-override: 0%;
+}
+
+// Accessibility: Links in text blocks should be underlined (not rely on color alone)
+.content a:not(.button):not(.external-link) {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 1px;
+}
+
+// Links in intro paragraph
+.content.has-text-justified a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
 .title {
-    font-family: 'Google Sans';
+    font-family: 'Google Sans', 'Google Sans Fallback', Arial, sans-serif;
 }
 
 .portrait {
