@@ -9,7 +9,7 @@
   github: rizavelioglu/tryoffdiff/
   arxiv: '2504.13078'
   demo: 'https://huggingface.co/spaces/rizavelioglu/tryoffdiff'
-  image: logo-dark.png
+  image: paper-mgt.webp
   image_mouseover: null
   authors:
     - rvelioglu
@@ -65,7 +65,7 @@
     provided by attention mechanisms and XAI techniques.
   github: rizavelioglu/ml4prom
   arxiv: '2212.00695'
-  image: logo-dark.png
+  image: logo-dark.webp
   authors:
     - rvelioglu
     - jpgopfert
@@ -80,7 +80,7 @@
   project_page: 'https://proceedings.mlr.press/v176/eichenberger22a.html'
   github: iarai/NeurIPS2021-traffic4cast
   arxiv: '2203.17070'
-  image: logo-dark.png
+  image: logo-dark.webp
   image_mouseover: null
   authors:
     - ceichenberger
@@ -126,7 +126,7 @@
   venue: IJCNN'22
   github: LucaHermes/graph-UNet-traffic-prediction
   arxiv: '2202.06725'
-  image: logo-dark.png
+  image: logo-dark.webp
   authors:
     - lhermes
     - bhammer
@@ -143,7 +143,7 @@
   paper: >-
     https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs211453
   github: ozgurozdemir/gumbel-training-for-nmt
-  image: logo-dark.png
+  image: logo-dark.webp
   awards:
     - Journal Paper
   authors:
@@ -157,7 +157,7 @@
   venue: SSCI'21
   github: andreArtelt/FairnessRobustnessContrastingExplanations
   arxiv: '2103.02354'
-  image: logo-dark.png
+  image: logo-dark.webp
   authors:
     - aartelt
     - vvaquet
@@ -172,7 +172,7 @@
   venue: MSc Thesis'21
   project_page: 'https://pub.uni-bielefeld.de/record/2989295'
   paper: 'https://pub.uni-bielefeld.de/record/2989295'
-  image: logo-dark.png
+  image: logo-dark.webp
   image_mouseover: null
   authors:
     - rvelioglu
@@ -182,7 +182,7 @@
   venue: NeurIPS'20
   project_page: 'https://ai.meta.com/blog/hateful-memes-challenge-winners/'
   paper: 'https://proceedings.mlr.press/v133/kiela21a.html'
-  image: logo-dark.png
+  image: logo-dark.webp
   image_mouseover: null
   authors:
     - dkiela
@@ -222,7 +222,7 @@
   project_page: 'https://github.com/rizavelioglu/hateful_memes-hate_detectron'
   github: rizavelioglu/hateful_memes-hate_detectron
   arxiv: '2012.12975'
-  image: logo-dark.png
+  image: logo-dark.webp
   image_mouseover: null
   authors:
     - rvelioglu
@@ -232,7 +232,7 @@
   title: Sentiment analysis using learning approaches over emojis for Turkish tweets
   venue: UBMK'18
   paper: 'https://ieeexplore.ieee.org/document/8566260'
-  image: logo-dark.png
+  image: logo-dark.webp
   image_mouseover: null
   authors:
     - rvelioglu

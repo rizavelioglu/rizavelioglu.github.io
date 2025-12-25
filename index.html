@@ -19,7 +19,7 @@ layout: null
   <meta property="og:title" content="{{ site.name }} - {{ site.position }}">
   <meta property="og:description" content="{{ site.description | strip_newlines | truncate: 160 }}">
   <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:image" content="{{ site.url }}/images/portrait.png">
+  <meta property="og:image" content="{{ site.url }}/images/portrait.webp">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.twitter_username }}">
 
@@ -58,7 +58,7 @@ layout: null
   <script defer src="{{ '/js/index.js' | relative_url }}"></script>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/logo-dark.png">
+  <link rel="icon" type="image/png" href="/images/logo-dark.webp">
   <link rel="canonical" href="{{ site.url }}">
 </head>
 
@@ -72,7 +72,7 @@ layout: null
         <!-- Portrait Image -->
         <div class="column is-3 has-text-centered">
           <figure class="portrait is-square" style="display: inline-block;">
-            <img src="/images/portrait.png" alt="Portrait of {{ site.name }}" width="250" height="250"/>
+            <img src="/images/portrait.webp" alt="Portrait of {{ site.name }}" width="250" height="250"/>
           </figure>
         </div>
 
@@ -89,7 +89,7 @@ layout: null
             </p>
 
           <div class="header-buttons" style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-top: 1rem;">
-            <a class="external-link" href="cv.html" title="View CV" style="position: relative;">
+            <a class="external-link" href="cv.html" aria-label="View CV" style="position: relative;">
               <i class="fas fa-file" aria-hidden="true"></i>
               <span style="position: absolute; font-size: 0.5em; color: #fff; bottom: 0.4em; left: 50%; transform: translateX(-50%);" aria-hidden="true">
               <strong>CV</strong>
