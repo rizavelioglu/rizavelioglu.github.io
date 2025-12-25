@@ -1,0 +1,14 @@
+- id: my_personal_website
+  show_in_cv: true
+  title: 'My Personal Website'
+  venue: Conference'25
+  description: Built a website.
+  project_page: 'https://jdoe.github.io/my_project'
+  github: jdoe/my_project/
+  arxiv: '2512.XXXXX'
+  demo: 'https://huggingface.co/spaces/jdoe/my_project'
+  image: placeholder-favicon.png
+  image_mouseover: null
+  authors:
+    - jdoe
+    - asmith

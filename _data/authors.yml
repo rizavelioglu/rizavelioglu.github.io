@@ -1,0 +1,9 @@
+jdoe:
+  first_name: John
+  last_name: Doe
+  website: 'https://johndoe.github.io/'
+  is_me: true
+asmith:
+  first_name: Alice
+  last_name: Smith
+  website: 'https://alicesmith.com/'
