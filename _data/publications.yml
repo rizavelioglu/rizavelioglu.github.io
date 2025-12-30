@@ -170,7 +170,6 @@
   show_in_cv: true
   title: Detecting Hate Speech In Multimodal Memes Using Vision-Language Models
   venue: MSc Thesis'21
-  project_page: 'https://pub.uni-bielefeld.de/record/2989295'
   paper: 'https://pub.uni-bielefeld.de/record/2989295'
   image: logo-dark.webp
   image_mouseover: null
@@ -219,7 +218,7 @@
   description: >-
     Won 3rd prize in the competition by finetunung VisualBERT and using ensemble
     learning.
-  project_page: 'https://github.com/rizavelioglu/hateful_memes-hate_detectron'
+  project_page: 'https://ai.meta.com/tools/hatefulmemes/'
   github: rizavelioglu/hateful_memes-hate_detectron
   arxiv: '2012.12975'
   image: logo-dark.webp
@@ -238,19 +237,3 @@
     - rvelioglu
     - tdalyan
     - syildirim
-
-
-            <div class="publication-authors">
-              {% for author_id in publication.authors %}
-              {% assign author = site.data.authors[author_id] %}
-              <span class="{% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
-                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
-                endif %}
-                {% else %}
-                <small><a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a></small>{% if forloop.last == false %},{% endif %}
-                {% endif %}
-              </span>
-              {% endfor %}
-            </div>
